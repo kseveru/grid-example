@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="an example of a newspaper grid on the Flexbox">
+  <title>Grid example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+
+    <!-- ===== CONTENT ======================== -->
+
+    <main class="page__content grid">
+      <header class="page-header grid__row">
+        <div class="page-header__logo grid__col col-3 logo">
+          <a class="logo__link">
+            <span class="logo__text">INC. Data bank</span>
+            <img class="logo__img" src="" width="150" height="100" alt="150 x 100">
+          </a>
+        </div>
+        <article class="page-header__col grid__col col-9 textbox textbox--main">
+          <h1 class="textbox__title">
+            The good hires? They're in your network
+          </h1>
+          <p class="textbox__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quasi nisi odio in dignissimos incidunt laudantium quibusdam voluptatum blanditiis necessitatibus? Iste quam unde accusantium totam odit, nesciunt labore eligendi similique.
+          </p>
+        </article>
+      </header>
+
+      <div class="grid__row">
+        <article class="grid__col col-4 textbox">
+          <h2 class="textbox__title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </h2>
+          <p class="textbox__text">
+            <span class="textbox__value">50%</span>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </article>
+        <article class="grid__col grid__col--inner col-8 grid__row grid__row--inner textbox">
+          <div class="grid__col col-7">
+            <h2 class="textbox__title">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </h2>
+            <p class="textbox__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <p class="textbox__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+          <div class="grid__col col-5">
+            <ul class="textbox__social social">
+              <li class="social__item">
+                <a class="social__link" href="#">
+                  <img class="social__icon" src="" width="50" height="50" alt="50 x 50">
+                  fb
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="#">
+                  <img class="social__icon" src="" width="50" height="50" alt="50 x 50">
+                  tw
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="#">
+                  <img class="social__icon" src="" width="50" height="50" alt="50 x 50">
+                  vk
+                </a>
+              </li>
+            </ul>
+            <table class="textbox__table table">
+              <tr>
+                <td class="table__value">98%</td>
+                <td class="table__value">42%</td>
+                <td class="table__value">33%</td>
+              </tr>
+              <tr>
+                <td class="table__value">38%</td>
+                <td class="table__value">34%</td>
+                <td class="table__value">52%</td>
+              </tr>
+            </table>
+          </div>
+        </article>
+      </div>
+
+      <div class="grid__row">
+        <article class="grid__col col-7 textbox">
+          <h2 class="textbox__title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultrices quis diam sed gravida. Etiam ac erat rhoncus, scelerisque est quis, imperdiet lorem. Donec porttitor tincidunt magna.
+          </h2>
+          <img class="textbox__img textbox__img--left textbox__img--bottom" src="" width="150" height="200" alt="150 x 200">
+          <p class="textbox__text">
+            <span class="textbox__value">7%</span>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <p class="textbox__text">
+            <span class="textbox__value">40%</span>
+            Lorem ipsum.
+          </p>
+        </article>
+        <article class="grid__col col-5 textbox">
+          <img class="textbox__img textbox__img--right textbox__img--top" src="" width="150" height="200" alt="150 x 200">
+          <h2 class="textbox__title">
+            Lorem ipsum dolor sit amet
+          </h2>
+          <p class="textbox__text">
+            Lorem ipsum dolor sit amet dolor sit amet dolor sit amet dolor sit amet.
+          </p>
+          <p class="textbox__text">
+            <span class="textbox__value textbox__value--inner">47%</span>
+            Lorem.
+          </p>
+          <p class="textbox__text">
+            <span class="textbox__value textbox__value--inner">47%</span>
+            Lorem lorem.
+          </p>
+        </article>
+      </div>
+
+      <div class="grid__row">
+        <article class="grid__col col-8 textbox">
+          <img class="textbox__img textbox__img--right textbox__img--top" src="" width="150" height="100" alt="150 x 100">
+          <h2 class="textbox__title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </h2>
+          <p class="textbox__text">
+            <span class="textbox__value textbox__value--inner">48%</span>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+          </p>
+        </article>
+        <article class="grid__col col-4 textbox">
+          <p class="textbox__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus voluptate.
+            <span class="textbox__value">$ 1200</span>
+          </p>
+        </article>
+      </div>
+
+      <div class="grid__row">
+        <article class="textbox">
+          <img class="textbox__img textbox__img--right textbox__img--top" src="" width="300" height="150" alt="300 x 150">
+          <blockquote class="textbox__quote">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo ultrices odio eget fermentum. Quisque ut?"
+          </blockquote>
+          <p class="textbox__text">
+            <b class="textbox__text textbox__text--bold">Lorem ipsum dolor</b> sit amet, consectetur adipiscing elit. Quam dicta minus. Quam dicta minus. Quam dicta minus. Quam dicta minus.
+          </p>
+        </article>
+      </div>
+    </main>
+
+    <!-- ===== SIDEBAR ======================== -->
+
+    <aside class="page__sidebar saidbar">
+      <img class="saidbar__img" src="" width="100" height="200" alt="100 x 200">
+      <p class="saidbar__text">
+        <b class="saidbar__text--bold">Lorem ipsum</b>
+        dolor sit amet, consectetur!
+      </p>
+      <p class="saidbar__text">
+        <b class="saidbar__text--bold">Lorem ipsum</b>
+        dolor sit amet, consectetur adipiscing elit. Nunc egestas nisl sed dui dapibus cursus. Praesent risus orci, gravida gravida nibh eu, sagittis molestie.
+      </p>
+      <p class="saidbar__text">
+        <b class="saidbar__text--bold">Lorem ipsum</b>
+        dolor sit amet, consectetur adipiscing elit. Nunc egestas nisl sed dui dapibus cursus.
+      </p>
+      <p class="saidbar__text">
+        <b class="saidbar__text--bold">Lorem ipsum</b>
+        dolor sit amet, consectetur adipiscing elit. Nunc egestas nisl sed dui dapibus cursus. Praesent risus orci, gravida gravida nibh eu, sagittis molestie risus. Aliquam nec est nec massa, consectetur adipiscing elit.
+      </p>
+      <p class="saidbar__text">
+        <b class="saidbar__text--bold">Lorem ipsum</b>
+        dolor sit amet, consectetur adipiscing elit. Nunc egestas nisl sed dui dapibus cursus. Praesent risus orci, gravida gravida nibh eu, sagittis molestie.
+      </p>
+      <p class="saidbar__text">
+        <b class="saidbar__text--bold">Lorem ipsum</b>
+        dolor sit amet, consectetur adipiscing elit. Nunc egestas nisl sed dui dapibus cursus. Praesent risus orci, gravida gravida nibh eu, sagittis molestie risus, aliquam.
+      </p>
+    </aside>
+
+  </div>
+</body>
+</html>

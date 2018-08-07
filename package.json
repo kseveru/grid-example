@@ -1,0 +1,42 @@
+{
+  "name": "grid-example",
+  "version": "1.0.0",
+  "description": "Резиновая верстка",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kseveru/grid-example.git"
+  },
+  "keywords": [
+    "grid",
+    "flex",
+    "flexbox",
+    "columns"
+  ],
+  "author": "kseveru <kseveru@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kseveru/grid-example/issues"
+  },
+  "homepage": "https://github.com/kseveru/grid-example#readme",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "IE 11"
+  ],
+    "devDependencies": {
+    "autoprefixer": "^9.1.0",
+    "browser-sync": "^2.24.6",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-postcss": "^8.0.0"
+  },
+  "dependencies": {
+    "npm": "^6.3.0"
+  }
+}
